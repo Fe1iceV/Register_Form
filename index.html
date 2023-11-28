@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+</head>
+<body>
+    <form name="form1" onsubmit="submitForm(event)">
+        <div class="circle"></div>
+
+        <div class="register-form-container">
+            <div class="form-title">
+                <div class="img">
+                    <img width="60px" height="50px" src="1.png" alt="">
+                </div>
+                <h1 class="form-title_h1">Login</h1>
+            </div>
+
+            <div class="form-fields">
+                <div class="form-field">
+                    <img width="35px" height="32px" src="2.png" alt="">
+                    <input id="usernameInput" class="input" type="text" required="required" placeholder="Username">
+                </div>
+                <div class="form-field">
+                    <img width="35px" height="32px" src="3.png" alt="">
+                    <input class="input" type="password" required="required" placeholder="*******">
+                </div>
+            </div>
+            <div class="checkBox">
+                <div class="remember">
+                    <input type="checkbox" onclick="saveInput()">
+                    <label>Remember me</label>
+                </div>
+                
+                <label>Forget Password?</label>
+                
+            </div>
+
+            <div class="form-buttons">
+                <button class="button" type="submit">Sign In</button>
+            </div>
+            <div class="content">
+                <div class="text">
+                    <p>Or you can Login with one of the following</p>
+                    <div class="Photo">    
+                        <a href="https://www.facebook.com/"><img width="44px" height="42px" src="FaceBook.png" alt=""></a>
+                        <a href="https://twitter.com/home"><img width="44px" height="42px" src="Twitter.png" alt=""></a>
+                        <img width="44px" height="42px" src="google+.png" alt="">
+                    </div>
+                </div>
+               
+                <div class="last_text">
+                    <p>Don't have an account? Sign Up</p>
+                </div> 
+            </div>
+        </div>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

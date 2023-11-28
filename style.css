@@ -1,0 +1,141 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*form setting*/
+
+.form-title_h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.form-title {
+    height: 90px;
+    background: #F8CD04;
+    max-width: 340px;
+    margin: auto ;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-fields {
+    
+    border: none;
+    margin: 30px 44px 19px 30px;
+}
+
+.form-field {
+    width: 285px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-buttons {
+    font-family: 'Roboto', sans-serif;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.form-buttons::after{
+    content:"";
+    display: block;
+    width: 285px;
+    height: 1px ;
+    background-color: #C2C2C0;
+    margin: 0px auto 0;
+}
+
+.form-field input{
+    height: 32px;
+    width: 250px;
+    border: none;
+    background-color: #D8D8D8;
+    padding: 10px;
+    
+}
+
+/*button*/
+
+.button {
+    
+    width: 285px;
+    height: 36px;
+    background-color: #F8CD04;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 0 17px 0 ;
+}
+
+/* register*/
+
+.register-form-container {
+    max-width: 340px;
+    background: white;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* checkBox*/
+
+.checkBox{
+    max-width: 285px;
+    display:flex;
+    margin: 19px 30px 19px 30px;
+    font-size: 10px;
+    color: #585856;
+}
+
+.checkBox input{
+    margin-right: 10px;
+}
+
+
+/*remember*/
+
+.remember{
+    padding-right: 125px;
+    display: flex;
+}
+
+/*content*/
+
+.content{
+    margin-top: 16px;
+}
+
+.text{
+    text-align: center;
+    font-size: 10px;
+    color: #CDCDCB;
+}
+
+.Photo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.last_text{
+    text-align: center;
+    font-size: 10px;
+    color: #CDCDCB;
+    padding-bottom: 53px;
+}
+
+
